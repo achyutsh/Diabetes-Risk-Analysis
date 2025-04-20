@@ -36,4 +36,4 @@ Categorizes individuals into Normal, Prediabetes, or Diabetes based on HbA1c lev
 
 ### 👥 Average HbA1c by Gender
 Highlights how average HbA1c levels vary between male and female participants.
-![Average HbA1c by Gender](avg_hba1c_by_sex.png)
+![Average HbA1c by Gender](avg_hba1c_by_gender.png)
