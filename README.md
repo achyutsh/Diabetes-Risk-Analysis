@@ -20,21 +20,20 @@ This project analyzes a synthetic healthcare dataset of 10,000 individuals to ex
 - Dataset format: CSV (synthetic healthcare data)
 
 ---
-
-## 📊 Sample Visuals
+## 📊 Sample Visualizations
 
 ### 🔬 Correlation Heatmap
-![Correlation Heatmap](visualizations/correlation_heatmap.png)
+Visualizes the strength of relationships between biometric indicators like BMI, HbA1c, and blood glucose.
+![Correlation Heatmap](correlation_heatmap.png)
 
-### 🧪 HbA1c Risk Levels
-![Risk Levels](visualizations/risk_level_distribution.png)
+### 🧪 HbA1c Distribution
+Shows the overall distribution of HbA1c levels, indicating potential risk zones for prediabetes and diabetes.
+![HbA1c Distribution](hba1c_distribution.png)
 
----
+### 📉 Risk Level Distribution
+Categorizes individuals into Normal, Prediabetes, or Diabetes based on HbA1c levels.
+![Risk Level Distribution](risk_level_distribution.png)
 
-## 🚀 How to Run
-
-1. Clone the repo
-2. Open `eda_analysis.ipynb` in Jupyter
-3. Install requirements (if needed):
-   ```bash
-   pip install -r requirements.txt
+### 👥 Average HbA1c by Gender
+Highlights how average HbA1c levels vary between male and female participants.
+![Average HbA1c by Gender](avg_hba1c_by_sex.png)
